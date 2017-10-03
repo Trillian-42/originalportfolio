@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wendy Grapentine | About</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500|Shadows+Into+Light" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">About Me</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <h1>My Portfolio</h1>
+    <ol>
+        <li>Personal Website
+            <ul>
+                <li>Basic HTML Webpage</li>
+            </ul>
+        </li>
+        <li>Javascript Project
+            <ul>
+                <li>Instructions: Input text in box below then click button to automatically calculate Total of Words, Total
+                    of Spaces, Total of Sentences and Average Words per Sentence.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <form>
+        <div id="border">
+            <textarea id="textArea"></textarea>
+        </div>
+        <div id="button">
+            <button type="button" onClick='results()'>Click Me</button>
+        </div>
+        <div id="result">
+            Total of Words: <span id="totalWords">0</span><br/> Total of Spaces: <span id="totalSpaces">0</span><br/> Total
+            of Sentences: <span id="totalSentences">0</span><br/> Average Words per Sentence: <span id="averageWords">0</span><br/>
+        </div>
+    </form>
+
+    <footer class="footerClass">
+        <a href="https://www.linkedin.com/in/wendy-grapentine/">LinkedIn</a>
+        <a href="https://github.com/Trillian-42">Github</a>
+        <a href="mailto:wendygrapentine@gmail.com">Email</a>
+    </footer>
+
+
+    <script src="MainJS.js"></script>
+</body>
+
+</html>
